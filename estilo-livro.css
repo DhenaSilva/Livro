@@ -1,0 +1,253 @@
+/*Formatação Título*/
+
+div#superior
+{
+	background-color: #272A34;
+	margin: -30px -8px 20px -30px
+}
+
+div#titulo
+{
+	margin: 30px 800px 20px 10px; /* Espaço fora do objeto*/
+}
+
+h1 
+{ 
+	font-family: archeologicaps;
+	font-size: 25pt;
+	color: #CBBA08;
+	text-align: center;
+}
+
+h2
+{
+	font-family: century gothic;
+	font-size: 15pt;
+	color: white;
+	text-align: center;
+}
+
+
+/*Formatação Menu*/
+
+nav#menu 
+{
+	display: block; /* Cria um bloco */
+}
+
+nav#menu ol /*Sempre que houver identificação, usar # */	
+ { 
+	list-style: none; /*Sumir com os marcadores*/
+	position: absolute; /* Fica livre pela tela para poder alterar */
+	top: -20px; /*Posição acima no site */
+	left: 900px; /* Posição à esquerda no site */
+ }
+
+nav#menu li 
+{
+	display: inline-block; /*Fazer com que o bloco seja exibido na mesma linha */
+	background-color: #EB7C4F;
+	color: white;
+	padding: 10px; /*Cria um espaço dentro da caixinha para ficar mais afastada do texto */
+	border-radius: 10px; /* Arredonda a borda */
+	transition: background-color 1s;
+}
+
+
+nav#menu a
+{
+	color: white;
+	text-decoration: none;
+}
+
+nav#menu li:hover
+{
+	background-color: orange;
+	
+}
+
+
+/* Formatação Imagem */
+
+figure.capa figcaption
+{
+	opacity: 0;
+	position: absolute;
+	top: 400px;
+	left: 950px;
+	color: black;
+	width: 26%;
+	height:  -30%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+	margin: 0px 50px  00px 0px;
+	text-align: justify;
+
+}
+
+figure.capa:hover figcaption
+{
+	opacity: 1;
+	background-color: rgba(255,255,255,.5);
+
+}
+
+
+figure.capa img
+{
+	display: flex;
+	position: absolute;
+	width: 350px;
+	top: 200px;
+	left: 950px;
+	transition: background-color 1s;
+}
+
+figure.capa a
+{
+	color: black;
+}
+
+figure.conteudo img
+{
+	position: absolute;
+	top: 1900px;
+	margin: 0px 5px 0px 900px;
+	width: 200px;
+}
+
+figure.personagem
+{
+	border: 3px solid white;
+	padding: 10px;
+	position: absolute;
+}
+
+figure.personagem img
+{
+	width: 250px;
+	height:250px;
+	margin: 10px 40px 10px 20px;
+}
+
+
+/* Formatação Fundo Site */
+
+body
+{
+	background-color: #272A34;
+}
+
+/* Formatação Texto */
+
+h3
+{
+	font-family: archeologicaps;
+	font-size: 20pt;
+	color: #CBBA08;
+}
+
+p
+{
+	font-family: century gothic;
+	font-size: 15pt;
+	color: white;
+	text-align: justify;
+	width: 800px;
+}
+
+
+h4
+{
+	font-family: century gothic;
+	font-size: 17pt;
+	color: #CBBA08;
+}
+
+h6
+{
+	font-family: archeologicaps;
+	font-size: 20pt;
+	color: #CBBA08;
+}
+
+h5
+{
+	font-family: century gothic;
+	font-size: 15pt;
+	color: white;
+	text-align: justify;
+	width: 400px;
+	text-decoration: none;
+}
+
+div#escritora
+{
+	margin: 1150px 10px 10px 10px;
+}
+
+/* Formatação Personagens */
+
+nav#personagens ul 
+{
+	list-style: none;
+}
+
+nav#personagens li
+{
+	font-family: century gothic;
+	font-size: 17pt;
+	color: #CBBA08;
+}
+
+nav#personagens p
+{
+	font-family: century gothic;
+	font-size: 15pt;
+	color: black;
+	text-align: justify;
+	width: 800px;
+}
+div#principal 
+{
+	display: flex;
+}
+
+div#katha
+{
+	margin: 10px 800px 10px -80px;
+}
+
+div#jake
+{
+	margin:0px 400px -10px 375px;
+}
+
+div#simon
+{
+	margin: 0px 10px -10px 825px;
+}
+
+div#henry
+{
+	margin: 550px 800px 10px -80px;
+}
+
+div#thomas
+{
+	margin: 550px 400px 10px 375px;
+}
+
+div#jhenny
+{
+	margin: 550px 10px 10px 825px;
+}
+
+
+/* Formatação Cabeçalho */
+
+header#cabecalho
+{
+	border-bottom: 1px red solid; /* Colocar uma linha de divisão, tamanho cor e modelo */
+}
