@@ -3,7 +3,7 @@
 div#superior
 {
 	background-color: #272A34;
-	margin: -30px -8px 20px -30px
+	margin: -30px 0px 20px -30px
 }
 
 div#titulo
@@ -75,15 +75,11 @@ figure.capa figcaption
 	position: absolute;
 	top: 400px;
 	left: 950px;
-	color: black;
 	width: 26%;
-	height:  -30%;
+	height: -30%;
 	padding: 10px;
 	box-sizing: border-box;
 	transition: opacity 1s;
-	margin: 0px 50px  00px 0px;
-	text-align: justify;
-
 }
 
 figure.capa:hover figcaption
@@ -120,15 +116,24 @@ figure.conteudo img
 figure.personagem
 {
 	border: 3px solid white;
-	padding: 10px;
 	position: absolute;
+	padding: 10px;
 }
 
 figure.personagem img
 {
 	width: 250px;
-	height:250px;
-	margin: 10px 40px 10px 20px;
+	position: relative;
+	top: 10px;
+	left: 80px;
+}
+
+img 
+{
+	width: 100px;
+	position: absolute;
+	top: 50px;
+	right: 100px;
 }
 
 
@@ -216,22 +221,22 @@ div#principal
 
 div#katha
 {
-	margin: 10px 800px 10px -80px;
+	margin: 10px 400px 10px -80px;
 }
 
 div#jake
 {
-	margin:0px 400px -10px 375px;
+	margin:0px 200px -10px 375px;
 }
 
 div#simon
 {
-	margin: 0px 10px -10px 825px;
+	margin: 0px 0px -10px 825px;
 }
 
 div#henry
 {
-	margin: 550px 800px 10px -80px;
+	margin: 550px 200px 10px -80px;
 }
 
 div#thomas
@@ -241,7 +246,7 @@ div#thomas
 
 div#jhenny
 {
-	margin: 550px 10px 10px 825px;
+	margin: 550px 0px 10px 825px;
 }
 
 

@@ -1,35 +1,41 @@
-<!DOCTYPE html> <!Indicar o uso da versão mais recente do html>
+<!DOCTYPE html> 
 
-<html lang="pt-br"> <!Indicar o idioma>
+<html lang="pt-br"> 
 
 	<head> 
-		<meta charset="UTF-8"/> <!Indicar que é idioma latino>
+		<meta charset="UTF-8"/> 
 			<title> 
 				As Nuvens do Submundo
 			</title>
-				<link rel="stylesheet" type="text/css" href="estilo-livro.css">  <!Pegar estilos do documento CSS>
+				<link rel="stylesheet" href="./estilo.css" />
+                <link rel="shortcut icon" href="./fogo.ico" />
 	</head>
-	
+
+	<script src="javascript.js"> </script>
+
 	<body>
 		<header id="cabecalho">
 			<div id="superior">
-				<div id="titulo"> <!Divisão para facilitar a formatação>
+				<div id="titulo"> 
 					<h1> As Nuvens do Submundo </h1>
 						<h2> Tudo o que você precisa saber sobre o mundo e a escritora desse aventura romantica </h2>
 				</div>
-		
-			<nav id="menu"> <!Menu de navegação>
-				<ol> <!Lista ordenada>
-					<li> <a href="#historia"> História </a> </li> <!Lista>
-					<li> <a href="#personagens"> Personagens </a> </li>
-					<li> <a href="#escritora"> Escritora </a> </li>
-					<li> <a href="https://www.amazon.com.br/As-Nuvens-Submundo-Dhena-Silva-ebook/dp/B0CJ13ZXSW/ref=sr_1_fkmr1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3ETLC6BYXLUJO&keywords=nas+nuvens+do+submundo&qid=1707407684&sprefix=nas+nuvens+do+submund%2Caps%2C237&sr=8-1-fkmr1" target="_blank"> Ler </a> </li>
+
+		<img src="./livro.png" id="icones" />
+			<nav id="menu"> 
+				<ol> 
+					<li onmouseover="mudaImagem(1)" onmouseout="mudaImagem(5)" > <a href="#historia"> História </a> </li> 
+					<li onmouseover="mudaImagem(2)" onmouseout="mudaImagem(5)"> <a href="#personagens"> Personagens </a> </li>
+					<li onmouseover="mudaImagem(3)" onmouseout="mudaImagem(5)"> <a href="#escritora"> Escritora </a> </li>
+					<li onmouseover="mudaImagem(4)" onmouseout="mudaImagem(5)" > <a href="https://www.amazon.com.br/As-Nuvens-Submundo-Dhena-Silva-ebook/dp/B0CJ13ZXSW/ref=sr_1_fkmr1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3ETLC6BYXLUJO&keywords=nas+nuvens+do+submundo&qid=1707407684&sprefix=nas+nuvens+do+submund%2Caps%2C237&sr=8-1-fkmr1" target="_blank"> Ler </a> </li>
 				</ol>
 			</nav>
+
+			
 		</header>
 		</div>
 		
-			<figure class="capa">  <!Divisão para imagens>
+			<figure class="capa">  
 			<a href="https://www.amazon.com.br/As-Nuvens-Submundo-Dhena-Silva-ebook/dp/B0CJ13ZXSW/ref=sr_1_fkmr1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3ETLC6BYXLUJO&keywords=nas+nuvens+do+submundo&qid=1707407684&sprefix=nas+nuvens+do+submund%2Caps%2C237&sr=8-1-fkmr1" target="_blank"> 
 				<img src="capa-livro.jpg">
 				</a>
@@ -53,10 +59,12 @@
 								<div id="katha">
 									<figure class="personagem">
 										<img src="katha.png">
+											<figcaption>
 											<h4> Katharina </h4>
 												<h5>
 												&nbsp A personagem principal, uma garota de 18 anos recém chegada ao mundo dos humanos. Apaixonada por animais, pela cor azul e pelo filho do maior inimigo de seu pai.
 												</h5>
+											</figcaption>
 									</figure> 
 								</div>
 						</li>
